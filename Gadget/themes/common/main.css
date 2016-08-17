@@ -1,0 +1,12 @@
+/* Main window layout */
+
+/* Actions panel */
+
+.action {
+        font-size: 0.7em;
+        text-transform: uppercase;
+        border: none;
+        background: transparent;
+        width: 33%;
+        text-align: center;       
+}

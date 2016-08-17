@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+    <name>Stopwatch</name>
+    <namespace>com.joshduck.gadgets</namespace>
+    <version>1.0.0.1</version>
+    <author name="Josh Duck">
+        <info url="http://www.joshduck.com/projects/stopwatch.html" />
+    </author>
+    <copyright>Josh Duck 2010</copyright>
+    <description>An easy to use stopwatch with split timer functionality.</description>
+    <icons>
+		<icon height="96" width="96" src="icons/96.png" />
+	</icons>
+    <hosts>
+        <host name="sidebar">
+            <base type="HTML" apiVersion="1.0.0" src="main.html" />
+            <permissions>Full</permissions>
+            <platform minPlatformVersion="1.0" />
+        </host>
+    </hosts>
+</gadget>

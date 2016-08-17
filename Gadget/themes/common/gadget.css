@@ -1,0 +1,39 @@
+/* Generic application layout */
+
+* {
+        margin: 0;
+        padding: 0;
+}
+
+body {
+        color: white;
+        font-family: sans-serif;
+        font-size: 16px;
+}
+
+a,
+button {
+        border: 1px solid red;
+        text-decoration: none;
+        color: white;
+        outline: none;
+}
+
+/* Digital readout */
+
+.display {
+        height: 1em;
+        overflow: hidden;
+}
+
+.display li {
+        cursor: default;
+        float: left;
+        overflow: hidden;
+        text-align: right;
+        vertical-align: baseline;
+}
+
+
+
+

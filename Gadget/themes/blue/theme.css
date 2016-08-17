@@ -1,0 +1,117 @@
+/* Main window */
+
+#main.blue {
+        width: 130px;
+        height: 140px;
+        padding: 49px 0 0 21px;
+        background: url('main-bg.png') no-repeat top left transparent;
+}
+
+#main.blue #actions {
+        width: 85px;
+        font-size: 11px;
+        padding: 2px;
+}
+
+/* Flyout window */
+
+#flyout.blue {
+        height: 169px;
+        width: 113px;
+        padding: 20px 10px 10px;
+        background: url('flyout-bg.png') no-repeat top left transparent;
+}
+
+#flyout.blue #splits {
+        list-style: none;
+}
+
+/* Digital display */
+
+.blue .display {
+        height: 27px;
+}
+
+.blue .display li {
+        text-indent: 1000px;
+        margin-right: -4px;
+        height: 30px;
+}
+
+.blue .display li.minutes,
+.blue .display li.seconds {
+       width: 18px;
+       background: url('digits-large.png') 0 0;
+}
+
+.blue .display li.centiseconds {
+       width: 15px;
+       background: url('digits-small.png') 0 0;
+}
+
+.blue .display li.divider {
+       width: 8px !important;
+}
+
+.blue .display li.digit-0 {
+       background-position: 0 -30px;
+}
+
+.blue .display li.digit-1 {
+       background-position: 0 -60px;
+}
+
+.blue .display li.digit-2 {
+       background-position: 0 -90px;
+}
+
+.blue .display li.digit-3 {
+       background-position: 0 -120px;
+}
+
+.blue .display li.digit-4 {
+       background-position: 0 -150px;
+}
+
+.blue .display li.digit-5 {
+       background-position: 0 -180px;
+}
+
+.blue .display li.digit-6 {
+       background-position: 0 -210px;
+}
+
+.blue .display li.digit-7 {
+       background-position: 0 -240px;
+}
+
+.blue .display li.digit-8 {
+       background-position: 0 -270px;
+}
+
+.blue .display li.digit-9 {
+       background-position: 0 -300px;
+}
+
+.blue .display li.divider {
+       background-position: 0 -360px;
+}
+
+.blue .display li.divider-off {
+       background-position: 0 -330px;
+}
+
+/* Buttons */
+
+.blue .action {
+        color: #aaf;
+}
+
+.blue .action:hover {
+        color: #DDf;
+}
+
+.blue .disabled,
+.blue .disabled:hover {
+        color: #114;
+}
